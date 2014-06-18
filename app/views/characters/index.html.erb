@@ -1,0 +1,9 @@
+<h3>All Characters </h3>
+
+<ul>
+  <% @characters.each do |char| %>
+    <li>
+      <%= "#{char.character_name} played by (#{char.actor_name})" %>
+    </li>
+  <% end %>
+</ul>
